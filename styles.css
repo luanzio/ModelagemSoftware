@@ -1,0 +1,288 @@
+body{
+    background-color: #001845;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title{
+    color: #fff;
+}
+
+#subtitle{
+    color: #0466C8;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+.btnVerDiagnostico{ 
+  margin-top: 30px;
+  display: block;
+  margin: auto;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 250px;
+  font-weight: 600;
+  color: #0466C8;
+  cursor: pointer;
+}
+
+.btnVerDiagnostico:hover {
+  background-color: #e4e4e4; 
+}
+
+label{
+    color: #fff;
+}
+
+#question-list label {
+    display: inline-block;
+    
+  }
+  
+
+  
+
+.checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox label {
+    order: 2;
+  }
+  
+  .checkbox input {
+    order: 1;
+    margin-right: 10px;
+  }
+  
+#button-home{
+    height: 60px;
+    width: 430px;
+    border-radius: 15px;
+    background-color: #0466C8;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#button-home:hover {
+    background-color: #248aef; 
+  }
+
+
+
+#cpf, #name{
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 20px 10px 15px 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#forms-subtitle{
+    color: #fff;
+    font-weight: 500;
+    margin-top: -20px;
+    font-size:20px;
+    background-color: #0466C8;
+    border-radius: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 0 auto; /* Adicionado */
+    width: 400px;
+    
+}
+
+
+#question-title{
+    color: #fff;
+    margin-bottom: -10px;
+}
+
+.usuario h3 {
+    display: inline;
+    color: #fff;
+  }
+
+#user-name{
+    font-weight: 700;
+    color: #0466C8;
+}
+
+.usuario{
+    margin-bottom: 20px;
+}
+
+#back-button{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #0466C8;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    margin-bottom: 8%;
+}
+
+#colors-container span{
+  color: #fff;
+}
+
+span{
+  color: white;
+}
+
+#remove-form-container h3{
+  color: #c83204;
+}
+
+#remove-form-container{
+  margin-bottom: 2%;
+}
+
+#remove-name,
+#remove-cpf {
+  border-radius: 15px;
+  width: 200px;
+  height: 25px;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+#remove-name,#remove-cpf:focus {
+  outline: none;
+}
+
+#remove-button {
+  border-radius: 15px;
+  width: 150px;
+  height: 25px;
+  background-color: #c83204;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#remove-button {
+  display: block;
+  margin-top: 10px; /* Ajuste o valor conforme necessário */
+}
+
+
+
+#remove-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#remove-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#remove-form label {
+  margin-right: 10px;
+}
+
+#remove-button {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.diarealizados {
+  text-align: center;
+}
+
+.diarealizados h3{
+  color: #0466C8;
+}
+
+.diarealizados h4{
+  color: gray;
+  margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+#result-button{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    margin-bottom: 8%;
+}
+
+#result-button:hover{
+    background-color: #248aef; 
+}
+
+#name,#cpf:focus {
+    outline: none;
+  }
+  
+  #main-container {
+    text-align: center;
+    margin-top: 8%;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  #form-questions {
+    text-align: center;
+  }
+  
+  #question-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #result-screen {
+    display: none;
+  }
+  
